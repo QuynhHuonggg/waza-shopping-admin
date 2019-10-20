@@ -1,0 +1,99 @@
+
+.button
+{
+    background-color:#0080FF;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+}
+.close
+{
+    background-color:#0080FF;
+    width: 100px;
+    height: 45px;
+    font-size: 20px;
+    color: white;
+}
+.save
+{
+    background-color:#0080FF;
+    width: 150px;
+    height: 45px;
+    font-size: 20px;
+    color: white;
+}
+.thamso
+{
+    display: flex;
+    align-items: flex-end;
+}
+.Form input
+{
+    width: 200px;
+    height: 40px;
+   flex: auto;
+    font-size: 20px;
+   
+}
+.Form
+{
+   display: flex;
+   flex-direction: row;
+    font-size: 20px;
+  width: 100%;
+  justify-content: space-between;
+  width: 1500px;
+  
+}
+ .dropdown
+{
+    width: 200px;
+    height: 40px;
+    flex: auto;
+    font-size: 20px; 
+    background-color: #0080FF;
+    color: white;
+}
+.Table
+{
+    margin-block-start: 20px;
+}
+.table thead tr
+{
+    height: 50px;
+    background-color: #0080FF;
+}
+.table thead tr th
+{
+    font-size: 15px;
+    color: white;
+}
+.container
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media all and (max-width:1770px)
+{
+   .Form
+   {
+       flex-direction: column;
+       align-items: center;
+   }
+   .Form input
+   {
+       margin-bottom: 20px;
+   }
+   .dropdown
+   {
+       margin-bottom: 10px;
+   }
+}
+
+.TableContent{
+    margin-top: 20px;
+}
